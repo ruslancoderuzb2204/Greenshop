@@ -4,8 +4,11 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 17px;
-    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
 
+}
+
+.site-container {
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
 }
 
 .header__logo {
@@ -105,7 +108,8 @@
     border: none;
     background: inherit;
     width: 100px;
-    ::placeholder{
+
+    ::placeholder {
         max-width: 100px;
     }
 
