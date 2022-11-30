@@ -4,12 +4,10 @@
     align-items: center;
     justify-content: space-between;
     padding-bottom: 17px;
-
-}
-
-.site-container {
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+
 }
+
 
 .header__logo {
     width: 150px;
@@ -108,6 +106,7 @@
     border: none;
     background: inherit;
     width: 100px;
+    outline: none;
 
     ::placeholder {
         max-width: 100px;
