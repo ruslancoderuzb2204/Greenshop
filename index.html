@@ -10,92 +10,126 @@
 </head>
 
 <body>
-    <div class="container site-container">
-        <header class="site-header">
-            <div class="header__mobile-menu">
-                <div class="header__mobile-menu-img">
-                    <img src="./img/Search (1).svg" alt="search icon">
-                </div>
-                <div class="header__input">
-                    <input type="text" id="search" aria-label="search" placeholder="Find your plants">
+        <div class="container site-container">
+            <div id="modal" class="site-login">
+                <img id="close-btn" class="close-img" src="./img/X.svg" alt="close icon">
+                <div class="login-container">
+                    <p class="register-text">
+                        <span>Login</span> | Register
+                    </p>
+                    <label>Enter your username and password to login.</label>
+                    <input type="email" class="email-input" placeholder="almamun_uxui@outlook.com">
+                    <input type="password" class="password-input" placeholder="***********">
+                    <a class="login-link" href="#">Forgot Password?</a>
+                    <button>Login</button>
+                    <p class="login-text">Or login with</p>
+                    <div class="google-link">
+                        <div class="google-icon">
+                            <img src="./img/google 1.svg" alt="google-icon">
+                        </div>
+                        <div>
+                            <p class="google-text">
+                                Login with Google
+                            </p>
+                        </div>
+                    </div>
+                    <div class="facebook-link">
+                        <div class="facebook-icon">
+                            <img src="./img/facebook 1.svg" alt="facebook-icon">
+                        </div>
+                        <div>
+                            <p class="facebook-text">
+                                Login with facebook
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="right__btn">
-                <a href="#">
-                    <img src="./img/Filter.svg" alt="right-btn">
+    <header id="site-header" class="site-header">
+        <div class="header__mobile-menu">
+            <div class="header__mobile-menu-img">
+                <img src="./img/Search (1).svg" alt="search icon">
+            </div>
+            <div class="header__input">
+                <input type="text" id="search" aria-label="search" placeholder="Find your plants">
+            </div>
+        </div>
+        <div class="right__btn">
+            <a href="#">
+                <img src="./img/Filter.svg" alt="right-btn">
+            </a>
+        </div>
+        <div class="header__logo">
+            <img src="./img/Logo.svg" alt="site-logo">
+        </div>
+
+        <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="#">
+                    Home
                 </a>
-            </div>
-            <div class="header__logo">
-                <img src="./img/Logo.svg" alt="site-logo">
-            </div>
+            </li>
+            <li class="header__item"><a class="header__link" href="#">
+                    Shop
+                </a>
+            </li>
+            <li class="header__item"><a class="header__link" href="#">
+                    Plants Care
+                </a>
+            </li>
+            <li class="header__item"><a class="header__link" href="#">
+                    Blogs
+                </a>
+            </li>
+        </ul>
+        <ul class="header__right-list">
+            <li class="header__right-item"><a class="header__right-link" href="#">
+                    <img src="./img/Vector.svg" alt="img">
+                </a>
+            </li>
+            <li class="header__right-item"><a class="header__right-link" href="#">
+                    <img src="./img/Group 1.svg" alt="img">
+                </a>
+            </li>
+            <li id="open-btn" class="header__right-item right-item">
+                <img src="./img/Logout.svg" alt="img">
+                <a class="header__right-link" href="#">LOGIN</a>
+                </a>
 
-            <ul class="header__list">
-                <li class="header__item"><a class="header__link" href="#">
-                        Home
-                    </a>
-                </li>
-                <li class="header__item"><a class="header__link" href="#">
-                        Shop
-                    </a>
-                </li>
-                <li class="header__item"><a class="header__link" href="#">
-                        Plants Care
-                    </a>
-                </li>
-                <li class="header__item"><a class="header__link" href="#">
-                        Blogs
-                    </a>
-                </li>
-            </ul>
-            <ul class="header__right-list">
-                <li class="header__right-item"><a class="header__right-link" href="#">
-                        <img src="./img/Vector.svg" alt="img">
-                    </a>
-                </li>
-                <li class="header__right-item"><a class="header__right-link" href="#">
-                        <img src="./img/Group 1.svg" alt="img">
-                    </a>
-                </li>
-                <li class="header__right-item right-item">
-                    <img src="./img/Logout.svg" alt="img">
-                    <a class="header__right-link" href="#">LOGIN</a>
-                    </a>
-
-                </li>
-            </ul>
-            <div class="header__btn">
-
+            </li>
+        </ul>
+        <div class="header__btn">
+        </div>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__content">
+                <p class="hero__top">
+                    Welcome to GreenShop
+                </p>
+                <h1 class="hero__title">
+                    Let’s Make a
+                    Better <span>Planet</span>
+                </h1>
+                <p class="hero__sub-text">
+                    We are an online plant shop offering a wide range
+                </p>
+                <p class="hero__bottom">
+                    We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
+                    create an unique Urban Jungle. Order your favorite plants!
+                </p>
+                <a class="hero__btn" href="#">SHOP NOW</a>
             </div>
-        </header>
-        <main>
-            <section class="hero">
-                <div class="hero__content">
-                    <p class="hero__top">
-                        Welcome to GreenShop
-                    </p>
-                    <h1 class="hero__title">
-                        Let’s Make a
-                        Better <span>Planet</span>
-                    </h1>
-                    <p class="hero__sub-text">
-                        We are an online plant shop offering a wide range
-                    </p>
-                    <p class="hero__bottom">
-                        We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
-                        create an unique Urban Jungle. Order your favorite plants!
-                    </p>
-                    <a class="hero__btn" href="#">SHOP NOW</a>
-                </div>
-                <div class="header__img">
-                    <img src="./img/hero-img.png" alt="ikkita gul bor">
-                </div>
-                <div class="hero-sub-img">
-                    <img src="./img/hero- sub-img.png" alt="bitta gul">
-                </div>
-            </section>
-        </main>
+            <div class="header__img">
+                <img src="./img/hero-img.png" alt="ikkita gul bor">
+            </div>
+            <div class="hero-sub-img">
+                <img src="./img/hero- sub-img.png" alt="bitta gul">
+            </div>
+        </section>
+    </main>
 
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
