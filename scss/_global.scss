@@ -26,20 +26,31 @@ h6,
 p {
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Poppins';
     position: relative;
 }
+
 a {
     text-decoration: none;
     display: inline-block;
 }
-img{
+
+img {
     width: 100%;
     height: auto;
 }
-.container{
+
+.container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.bar-plants {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-bottom: 90px;
 }

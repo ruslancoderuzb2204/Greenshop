@@ -10,123 +10,303 @@
 </head>
 
 <body>
-        <div class="container site-container">
-            <div id="modal" class="site-login">
-                <img id="close-btn" class="close-img" src="./img/X.svg" alt="close icon">
-                <div class="login-container">
-                    <p class="register-text">
-                        <span>Login</span> | Register
-                    </p>
-                    <label>Enter your username and password to login.</label>
-                    <input type="email" class="email-input" placeholder="almamun_uxui@outlook.com">
-                    <input type="password" class="password-input" placeholder="***********">
-                    <a class="login-link" href="#">Forgot Password?</a>
-                    <button>Login</button>
-                    <p class="login-text">Or login with</p>
-                    <div class="google-link">
-                        <div class="google-icon">
-                            <img src="./img/google 1.svg" alt="google-icon">
-                        </div>
-                        <div>
-                            <p class="google-text">
-                                Login with Google
-                            </p>
-                        </div>
+    <div class="container site-container">
+        <div id="modal" class="site-login">
+            <img id="close-btn" class="close-img" src="./img/X.svg" alt="close icon">
+            <div class="login-container">
+                <p class="register-text">
+                    <span>Login</span> | Register
+                </p>
+                <label>Enter your username and password to login.</label>
+                <input type="email" class="email-input" placeholder="almamun_uxui@outlook.com">
+                <input type="password" class="password-input" placeholder="***********">
+                <a class="login-link" href="#">Forgot Password?</a>
+                <button>Login</button>
+                <p class="login-text">Or login with</p>
+                <div class="google-link">
+                    <div class="google-icon">
+                        <img src="./img/google 1.svg" alt="google-icon">
                     </div>
-                    <div class="facebook-link">
-                        <div class="facebook-icon">
-                            <img src="./img/facebook 1.svg" alt="facebook-icon">
-                        </div>
-                        <div>
-                            <p class="facebook-text">
-                                Login with facebook
-                            </p>
-                        </div>
+                    <div>
+                        <p class="google-text">
+                            Login with Google
+                        </p>
+                    </div>
+                </div>
+                <div class="facebook-link">
+                    <div class="facebook-icon">
+                        <img src="./img/facebook 1.svg" alt="facebook-icon">
+                    </div>
+                    <div>
+                        <p class="facebook-text">
+                            Login with facebook
+                        </p>
                     </div>
                 </div>
             </div>
-    <header id="site-header" class="site-header">
-        <div class="header__mobile-menu">
-            <div class="header__mobile-menu-img">
-                <img src="./img/Search (1).svg" alt="search icon">
+        </div>
+        <header id="site-header" class="site-header">
+            <div class="header__mobile-menu">
+                <div class="header__mobile-menu-img">
+                    <img src="./img/Search (1).svg" alt="search icon">
+                </div>
+                <div class="header__input">
+                    <input type="text" id="search" aria-label="search" placeholder="Find your plants">
+                </div>
             </div>
-            <div class="header__input">
-                <input type="text" id="search" aria-label="search" placeholder="Find your plants">
+            <div class="right__btn">
+                <a href="#">
+                    <img src="./img/Filter.svg" alt="right-btn">
+                </a>
             </div>
-        </div>
-        <div class="right__btn">
-            <a href="#">
-                <img src="./img/Filter.svg" alt="right-btn">
-            </a>
-        </div>
-        <div class="header__logo">
-            <img src="./img/Logo.svg" alt="site-logo">
-        </div>
+            <div class="header__logo">
+                <img src="./img/Logo.svg" alt="site-logo">
+            </div>
 
-        <ul class="header__list">
-            <li class="header__item"><a class="header__link" href="#">
-                    Home
-                </a>
-            </li>
-            <li class="header__item"><a class="header__link" href="#">
-                    Shop
-                </a>
-            </li>
-            <li class="header__item"><a class="header__link" href="#">
-                    Plants Care
-                </a>
-            </li>
-            <li class="header__item"><a class="header__link" href="#">
-                    Blogs
-                </a>
-            </li>
-        </ul>
-        <ul class="header__right-list">
-            <li class="header__right-item"><a class="header__right-link" href="#">
-                    <img src="./img/Vector.svg" alt="img">
-                </a>
-            </li>
-            <li class="header__right-item"><a class="header__right-link" href="#">
-                    <img src="./img/Group 1.svg" alt="img">
-                </a>
-            </li>
-            <li id="open-btn" class="header__right-item right-item">
-                <img src="./img/Logout.svg" alt="img">
-                <a class="header__right-link" href="#">LOGIN</a>
-                </a>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link" href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">
+                        Shop
+                    </a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">
+                        Plants Care
+                    </a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">
+                        Blogs
+                    </a>
+                </li>
+            </ul>
+            <ul class="header__right-list">
+                <li class="header__right-item"><a class="header__right-link" href="#">
+                        <img src="./img/Vector.svg" alt="img">
+                    </a>
+                </li>
+                <li class="header__right-item"><a class="header__right-link" href="#">
+                        <img src="./img/Group 1.svg" alt="img">
+                    </a>
+                </li>
+                <li id="open-btn" class="header__right-item right-item">
+                    <img src="./img/Logout.svg" alt="img">
+                    <a class="header__right-link" href="#">LOGIN</a>
+                    </a>
 
-            </li>
-        </ul>
-        <div class="header__btn">
-        </div>
-    </header>
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero__content">
-                <p class="hero__top">
-                    Welcome to GreenShop
-                </p>
-                <h1 class="hero__title">
-                    Let’s Make a
-                    Better <span>Planet</span>
-                </h1>
-                <p class="hero__sub-text">
-                    We are an online plant shop offering a wide range
-                </p>
-                <p class="hero__bottom">
-                    We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
-                    create an unique Urban Jungle. Order your favorite plants!
-                </p>
-                <a class="hero__btn" href="#">SHOP NOW</a>
+                </li>
+            </ul>
+            <div class="header__btn">
             </div>
-            <div class="header__img">
-                <img src="./img/hero-img.png" alt="ikkita gul bor">
+        </header>
+        <main>
+            <section id="hero" class="hero">
+                <div class="hero__content">
+                    <p class="hero__top">
+                        Welcome to GreenShop
+                    </p>
+                    <h1 class="hero__title">
+                        Let’s Make a
+                        Better <span>Planet</span>
+                    </h1>
+                    <p class="hero__sub-text">
+                        We are an online plant shop offering a wide range
+                    </p>
+                    <p class="hero__bottom">
+                        We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to
+                        create an unique Urban Jungle. Order your favorite plants!
+                    </p>
+                    <a class="hero__btn" href="#">SHOP NOW</a>
+                </div>
+                <div class="header__img">
+                    <img src="./img/hero-img.png" alt="ikkita gul bor">
+                </div>
+                <div class="hero-sub-img">
+                    <img src="./img/hero- sub-img.png" alt="bitta gul">
+                </div>
+            </section>
+            <div class="bar-plants">
+                <section class="site-bar">
+                    <h2 class="site-bar__title">
+                        Categories
+                    </h2>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            House Plants
+                        </p>
+                        <span>
+                            (33)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Potter Plants
+                        </p>
+                        <span>
+                            (12)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Seeds
+                        </p>
+                        <span>
+                            (65)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Small Plants
+                        </p>
+                        <span>
+                            (39)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Big Plants
+                        </p>
+                        <span>
+                            (23)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Succulents
+                        </p>
+                        <span>
+                            (17)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Trerrariums
+                        </p>
+                        <span>
+                            (19)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Gardening
+                        </p>
+                        <span>
+                            (13)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Accessories
+                        </p>
+                        <span>
+                            (18)
+                        </span>
+                    </div>
+                    <h2 class="site-bar__title">
+                        Price Range
+                    </h2>
+                    <div class="site-bar__img">
+                        <img src="./img/Group 108.png" alt="price line">
+                    </div>
+                    <p class="price-text">
+                        Price: <span>$39 - $1230</span>
+                    </p>
+                    <a class="price-btn" href="#">Filter</a>
+                    <h2 class="site-bar__title">
+                        Size
+                    </h2>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Small
+                        </p>
+                        <span>
+                            (119)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Medium
+                        </p>
+                        <span>
+                            (86)
+                        </span>
+                    </div>
+                    <div class="site-bar__content">
+                        <p class="side-bar__text">
+                            Large
+                        </p>
+                        <span>
+                            (78)
+                        </span>
+                    </div>
+                    <img class="bottom__site-bar" src="./img/Super Sale Banner.png" alt="bottom img">
+                </section>
+                <section class="plants">
+                    <div class="plants__nav">
+                        <div class="nav-list">
+                            <a href="#">All Plants</a>
+                            <a href="#">New Arrivals</a>
+                            <a href="#">Sale</a>
+                        </div>
+                        <div>
+                            <p class="nav-text">
+                                Short by:
+                                Default sorting
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="plants__list">
+                        <li class="plants__item">
+                            <img src="./img/product-20-320x320 1.png" alt="img">
+                            <p>Barberton Daisy</p>
+                            <span>$119.00</span>
+                        </li>
+                        <li class="plants__item">
+                            <img src="./img/image 10.png" alt="">
+                            <p>Angel Wing Begonia</p>
+                            <span>$169.00</span>
+                        </li>
+                        <li class="plants__item">
+                            <img src="./img/image 7.png" alt="img">
+                            <p>African Violet</p>
+                            <span>$199.00</span>
+                        </li>
+                        <li class="plants__item">
+                            <img src="./img/image 8 (1).png" alt="img">
+                            <p>Beach Spider Lily</p>
+                            <span>$129.00</span>
+                        </li>
+                        <li class="plants__item extra">
+                            <img src="./img/image 9.png" alt="img">
+                            <p>Blushing Bromeliad</p>
+                            <span>$139.00</span>
+                        </li>
+                        <li class="plants__item extra">
+                            <img src="./img/hero-img.png" alt="img">
+                            <p>Aluminum Plant</p>
+                            <span>$179.00</span>
+                        </li>
+                        <li class="plants__item extra-img">
+                            <img src="./img/product-20-320x320 1 (1).png" alt="img">
+                            <p>Bird's Nest Fern</p>
+                            <span>$99.00</span>
+                        </li>
+                        <li class="plants__item extra-img ">
+                            <img src="./img/hero-img.png" alt="img">
+                            <p>Broadleaf Lady Palm</p>
+                            <span>$59.00</span>
+                        </li>
+                        <li class="plants__item extra-img ">
+                            <img src="./img/image 8.png" alt="img">
+                            <p>Chinese Evergreen</p>
+                            <span>$39.00</span>
+                        </li>
+                    </ul>
+
+                </section>
             </div>
-            <div class="hero-sub-img">
-                <img src="./img/hero- sub-img.png" alt="bitta gul">
-            </div>
-        </section>
-    </main>
+        </main>
 
     </div>
     <script src="js/main.js"></script>
