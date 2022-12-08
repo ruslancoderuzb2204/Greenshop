@@ -1,0 +1,120 @@
+.posts__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    text-align: center;
+    color: #3D3D3D;
+    margin-bottom: 15px;
+}
+
+.posts__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+}
+
+.posts__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.posts__content {
+    max-width: 300px;
+    padding: 9px 21px 13px 15px;
+}
+
+.posts__item img {
+    max-width: 290px;
+}
+
+.posts__item {
+    background: #FBFBFB;
+    max-width: 290px;
+
+}
+
+.posts__item span {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+    margin-bottom: 5px;
+}
+
+.posts__item h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    color: #3D3D3D;
+}
+
+.posts__item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #727272;
+}
+
+.posts__item a {
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+.posts__item a:hover{
+    color: green;
+    background-color: coral;
+}
+.posts__item a:active{
+    color:crimson;
+    background-color: aqua;
+}
+@media screen and (max-width:780px) {
+    .posts__list {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:651px) {
+    .posts__item {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .posts__item img{
+        max-width: 200px;
+        flex-shrink: 0;
+        height: auto;
+    }
+    .posts__content{
+        padding: 15px;
+    }
+}
+@media screen and (max-width:576px){
+    .posts__item {
+        flex-direction: column;
+        gap: 0px;
+        justify-content: space-between;
+    }
+    .posts__item img{
+        max-width: 300px;
+        flex-shrink: 0;
+        height: auto;
+    }
+    .posts__content{
+        padding: 15px;
+        padding-bottom: 0;
+    }
+}
